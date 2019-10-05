@@ -143,5 +143,4 @@ def RK4M(op1=8,op2=7,alpha=0.75,C=0.5,dt=0.001):
     
     return RT, r
 
-print(RK4M())
 

@@ -1,14 +1,3 @@
-"""This function solves the IN model ecuations 
-
-INPUT
-op1: first operand (integer)
-op2: second operand (integer)
-
-OUTPUT
-RT: Response Time
-prod
-Decade and unit parts of the aswers
-"""
 import numpy as np
 
 
@@ -125,4 +114,4 @@ def EM(op1=8,op2=7,alpha=0.75,C=0.5,dt=0.001):
     return RT, r
 
 #!!!!!!!!!!!!!!!!!!!! revisar porque no esta computando nada
-print(EM())
+
